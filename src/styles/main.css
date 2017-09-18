@@ -1,29 +1,58 @@
-.float-right{
+.flex-align{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: #d1d2db;
+}
+
+.logo-group{
+    width: 80%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+
+.button-group-flex{
+    justify-items: flex-end;
     float: right;
-    display: block;
+    vertical-align: middle;
+    display: inline;
 }
 
-.border-bottom{
-    border-bottom: 1px;
-    color: gray;
+.product{
+    width: auto;
+    padding-left: 40px;
+    align-self: center;
+    font-size: small;
+    color: #aaadb2;
 }
 
-.padding{
+.customer{
+    width: auto;
+    padding-left: 20px;
+    align-self: center;
+    font-size: small;
+    color: #aaadb2;
+}
+
+.image{
     padding: 10px;
+    width: 40px;
+    height: 40px;
 }
 
-.width{
-    width: 40%;
-}
-
-.button{
+.button-sign-in{
     float: right;
     margin: 20px 5px;
     vertical-align: middle;
-    color: #6a67ce;
-    background: white;
+    color: white;
+    background-color: #6a67ce;
     width: 100px;
     height: 30px;
+    border-color: #6a67ce;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .title{
@@ -38,8 +67,10 @@
 
 .input-email{
     text-align: center;
-    height: 50px;
+    height: 30px;
     border-color: #d1d2db;
+    width: 200px;
+    border-width: 1px;
 }
 
 .center{
@@ -47,9 +78,32 @@
 }
 
 .center-button{
-    color: #6a67ce;
+    margin: 20px 5px;
+    vertical-align: middle;
+    color: white;
+    background-color: #6a67ce;
+    width: 100px;
+    height: 30px;
+    border-color: #6a67ce;
+    border-radius: 5px;
+    text-align: center;
 }
 
-#button:hover {
-    background-color: #6a67ce;
+.button-sign-up{
+    float: right;
+    margin: 20px 5px;
+    vertical-align: middle;
+    color: #6a67ce;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border-color: #6a67ce;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.logo{
+    font-size: xx-large;
+    align-content: center;
+    padding-top: 5px;
 }
